@@ -13,4 +13,4 @@ A simple Python program that detects the hash provided.
 * SHA-256
 
 # TODO
-At the moment, hashes are detected by character length. Will need to find a different way to determine the type of hash provided.
+* At the moment, hashes are detected by character length. Will need to find a different way to determine the type of hash provided.
