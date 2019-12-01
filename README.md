@@ -9,4 +9,4 @@ A simple Python program that detects the hash provided.
 
 # Supported Hashes
 * SHA-1
-
+* SHA-256

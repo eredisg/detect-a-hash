@@ -11,6 +11,8 @@ def hash():
             hash_length = (len(args[1]))
             if hash_length == 40:
                 print("detect-a-hash: The hash provided appears to be a SHA-1 hash.")
+            elif hash_length == 64:
+                print("detect-a-hash: The hash provided appears to be a SHA-256 hash.")
     else:
         print("detect-a-hash: detect.py <hash>")
 
