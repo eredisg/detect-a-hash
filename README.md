@@ -8,5 +8,6 @@ A simple Python program that detects the hash provided.
 ```
 
 # Supported Hashes
+* MD5
 * SHA-1
 * SHA-256

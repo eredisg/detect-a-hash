@@ -9,7 +9,9 @@ def hash():
             print("detect-a-hash: detect.py <hash>")
         else:
             hash_length = (len(args[1]))
-            if hash_length == 40:
+            if hash_length == 32:
+                print("detect-a-hash: The hash provided appears to be a MD5 hash.")
+            elif hash_length == 40:
                 print("detect-a-hash: The hash provided appears to be a SHA-1 hash.")
             elif hash_length == 64:
                 print("detect-a-hash: The hash provided appears to be a SHA-256 hash.")
